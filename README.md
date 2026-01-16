@@ -6,7 +6,7 @@ WhyNot est une application web moderne développée avec **Angular 18+** (Standa
 
 Plateforme e-commerce et communautaire développée avec une architecture moderne **Angular**.
 
-## 🛠 Technologies & Concepts implémentés
+## Technologies & Concepts implémentés
 * **Angular Standalone Components** : Architecture sans modules pour plus de légèreté.
 * **Angular Signals & Computed** : Gestion de l'état réactive pour le filtrage du shop et des événements sans rechargement.
 * **Tailwind CSS (JIT Mode)** : Design système basé sur des utilitaires, incluant des animations personnalisées (hover effects, tracking transitions).
