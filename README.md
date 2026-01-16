@@ -1,27 +1,32 @@
-# WhyNotSite
+# WhyNot - Performance Gear & Community
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.21.
+WhyNot est une application web moderne développée avec **Angular 18+** (Standalone Components & Signals) dédiée à l'équipement sportif de haute performance et à la gestion d'événements communautaires.
 
-## Development server
+# WhyNot - Performance & Community Platform
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Plateforme e-commerce et communautaire développée avec une architecture moderne **Angular**.
 
-## Code scaffolding
+## 🛠 Technologies & Concepts implémentés
+* **Angular Standalone Components** : Architecture sans modules pour plus de légèreté.
+* **Angular Signals & Computed** : Gestion de l'état réactive pour le filtrage du shop et des événements sans rechargement.
+* **Tailwind CSS (JIT Mode)** : Design système basé sur des utilitaires, incluant des animations personnalisées (hover effects, tracking transitions).
+* **Dynamic Theme Engine** : Système de thémisation (Light/Dark mode) via attributs de document et variables CSS.
+* **Responsive Grid System** : Mise en page adaptative avec verrouillage de ratio d'aspect (`aspect-ratio`).
+* **Angular Router** : Navigation fluide entre les différentes sections (Home, Shop, Events).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+##  En cours de développement (Manquant)
+* **Système logine et auth** : Gestion des autorisations admin/users.
+* **Interface Admin** : Dashboard pour la gestion du stock, ajout de produits et suivi des réservations d'événements.
+* **Optimisation des Assets** : Finalisation des chemins d'images et nettoyage des ressources.
+* **Optimisation du design global**: concernant les couleurs ou aspect visuel du site.
+* **Rendre dynamique le site**: api pour joindre le backend 
 
-## Build
+## Stack Technique
+* **Framework** : Angular (Latest version)
+* **Styling** : Tailwind CSS
+* **State Management** : Angular Signals & Computed Properties
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Installation
+1. Cloner le projet : `git clone [URL-DE-TON-REPO]`
+2. Installer les dépendances : `npm install`
+3. Lancer le serveur local : `ng serve`

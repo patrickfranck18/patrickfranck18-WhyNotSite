@@ -1,1 +1,83 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* COULEURS GLOBALES */
+:root {
+  /* Mode Sombre (Par défaut) */
+  --bg-color: #000000;
+  --text-color: #ffffff;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --accent: #1a1a1a;
+}
+
+[data-theme='light'] {
+  /* Mode Clair (L'inversion totale) */
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --border-color: rgba(0, 0, 0, 0.1);
+  --accent: #f4f4f4;
+}
+
+/* VARIABLES AU BODY */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* CLASSES "OUTILS" POUR TOUT LE SITE */
+.dynamic-bg { background-color: var(--bg-color) !important; }
+.dynamic-text { color: var(--text-color) !important; }
+.dynamic-border { border-color: var(--border-color) !important; }
+
+.sport-italic {
+  font-style: italic;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.05em;
+}
+
+.hero-title {
+  font-size: clamp(3rem, 12vw, 9rem) !important; 
+  word-wrap: break-word !important;
+  line-height: 0.9 !important;
+}
+
+/* ON ENLÈVE LE H2 DE LA RÈGLE CI-DESSUS POUR QUE L'ADMIN SOIT LISIBLE */
+h2 {
+  font-size: inherit; /* Laisse Tailwind décider */
+  line-height: normal;
+}
+
+
+/*
+.grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+}
+*/
+
+/* Ajuste automatiquement les marges sur mobile/tablette */
+section {
+  padding-left: clamp(1rem, 5vw, 2.5rem) !important;
+  padding-right: clamp(1rem, 5vw, 2.5rem) !important;
+}
+
+/* Empêche les images et les logos de déborder */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Force la grille de produits à passer en 1 ou 2 colonnes sur tablette/mobile */
+.grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; // Empêche le défilement horizontal parasite
+}
