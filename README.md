@@ -1,6 +1,6 @@
 # WhyNot - Performance Gear & Community
-
-WhyNot est une application web moderne développée avec **Angular 18+** (Standalone Components & Signals) dédiée à l'équipement sportif de haute performance et à la gestion d'événements communautaires.
+<img src="public/whynot.PNG" alt="Page d'accueil" class="w-full h-auto">
+WhyNotSite est une application web moderne développée avec **Angular 18+** (Standalone Components & Signals) dédiée à l'équipement sportif de haute performance et à la gestion d'événements communautaires.
 
 # WhyNot - Performance & Community Platform
 
